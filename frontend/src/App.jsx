@@ -1,19 +1,19 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import {Home} from './pages/Home.jsx';
-import {Collection} from './pages/Collection.jsx';
-import {Contact} from './pages/Contact.jsx';
-import {About} from './pages/About.jsx';
-import {Product} from './pages/Products.jsx'
-import {Cart} from './pages/Cart.jsx'
-import {Login} from './pages/Login.jsx';
-import {PlaceOrder} from './pages/PlaceOrder.jsx';
-import {Order} from './pages/Order.jsx';
+import Home from './pages/Home.jsx';
+import Collection from './pages/Collection.jsx';
+import Contact from './pages/Contact.jsx';
+import About from './pages/About.jsx';
+import Product from './pages/Products.jsx'
+import Cart from './pages/Cart.jsx'
+import Login from './pages/Login.jsx';
+import PlaceOrder from './pages/PlaceOrder.jsx';
+import Order from './pages/Order.jsx';
 
 const App = () => {
   return (
-    <div>
-      <Routes>
+    <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
+      <Routes >
         <Route path='/' element={<Home />} />
         <Route path='/collection' element={<Collection />} />
         <Route path='/about' element={<About />} />
